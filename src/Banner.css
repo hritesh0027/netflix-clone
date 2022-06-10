@@ -1,0 +1,70 @@
+.header{
+    height: 439px;
+    object-fit: contain;
+    /* background: rgba(0,0,0, 0.5); */
+}
+
+.banner_contents{
+    padding-top: 150px;
+    margin-left: 20px;
+    color: white;
+}
+
+.headline{
+    font-size:3 rem;
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+}
+
+.banner_contents > a > button, .banner_contents> button{
+    margin-right: 1rem;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    background-color: rgba(51,51,51, 0.51);
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.banner_contents > a > button:hover, .banner_contents > button:hover{
+    color: #000;
+    background-color: #e6e6e6;
+    transition: all 0.2s;
+}
+
+.description{
+    padding-top: 1rem;
+    /* width: 45rem; */
+    line-height: 1.3;
+    font-size: 0.8rem;
+    max-width: 360px;
+    height: 80px;
+}
+
+.banner--fadeBottom{
+    height: 7.4rem;
+    background-image: linear-gradient(
+        180deg,
+        transparent,
+        rgba(37,37,37,0.61),
+        #111
+    );
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        height: 350px;
+    }
+    .banner_contents{
+        padding-top: 90px;
+        margin-left: 10px;
+    }
+    .headline{
+        font-size: 1.5rem;
+    }
+    .banner--fadeBottom{
+        height: 6.4rem;
+    }
+}

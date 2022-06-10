@@ -1,0 +1,37 @@
+.nav{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top:0;
+    height: 75px;
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    transition: all 0.5s ease-in;
+    z-index: 1;
+}
+
+.nav_black{
+    background-color: #111;
+    position:fixed;
+    top: 0;
+}
+
+.nav #logo{
+    cursor: pointer;
+    /* display: flex; */
+    position: fixed;
+    /* border: 2px solid red; */
+    width: 125px;
+    height: 75px;
+    left:0;
+    justify-content: center;
+}
+
+.nav #avatar{
+    cursor: pointer;
+    position: fixed;
+    right:20px;
+    height: 30px;
+    width: 30px;
+    /* border: 2px solid red; */
+}
